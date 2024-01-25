@@ -1,5 +1,5 @@
 package certificering;
 
-public class Examenvraag{
-    public static int vraag = 8;
+public class Examenvraag {
+  public static int vraag = 8;
 }
