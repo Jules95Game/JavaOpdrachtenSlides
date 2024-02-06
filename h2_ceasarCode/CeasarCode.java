@@ -5,11 +5,11 @@ public class CeasarCode {
     System.out.println("Zet tekst om in Ceasar Code.");
     Scanner inputScanner = new Scanner(System.in);
     System.out.print("Voer een leestekenreeks in:\t ");
-    String encodedText = CeasarCodePlusThree(inputScanner.nextLine());
+    String encodedText = ceasarCodePlusThree(inputScanner.nextLine());
     System.out.println("De cijfertekstreeks is:\t\t " + encodedText);
   }
 
-  private static String CeasarCodePlusThree(String plainText) {
+  private static String ceasarCodePlusThree(String plainText) {
     plainText = plainText.toUpperCase();
     char[] plainArray = plainText.toCharArray();
 
