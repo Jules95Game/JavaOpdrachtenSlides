@@ -10,6 +10,7 @@ public class MethodTest {
     System.out.println(base + " to de macht " + exp + " is: " + exponent(base, exp));
   }
 
+
   private static double exponent(int base, int exp) {
     return Math.pow(base, exp);
   }

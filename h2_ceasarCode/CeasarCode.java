@@ -9,6 +9,7 @@ public class CeasarCode {
     System.out.println("De cijfertekstreeks is:\t\t " + encodedText);
   }
 
+
   private static String ceasarCodePlusThree(String plainText) {
     plainText = plainText.toUpperCase();
     char[] plainArray = plainText.toCharArray();
