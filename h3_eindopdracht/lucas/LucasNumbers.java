@@ -1,7 +1,7 @@
 package lucas;
 
 import java.util.Scanner;
-import lucas.parser.StringToInteger;
+import helpers.parser.StringToInteger;
 
 public class LucasNumbers {
   private static StringToInteger input;
