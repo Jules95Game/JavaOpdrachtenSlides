@@ -1,2 +1,2 @@
-javac -cp .. LucasNumbers.java
-java -cp ..;. lucas.LucasNumbers
+javac -cp ..\..\..;.. LucasNumbers.java
+java -cp ..\..\..;.. lucas.LucasNumbers
